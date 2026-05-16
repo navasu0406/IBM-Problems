@@ -1,3 +1,5 @@
+
+
 public class Diagonal_Sums {
     public static void main(String[] args) {
         int [] [] arr={
@@ -9,12 +11,19 @@ public class Diagonal_Sums {
         System.out.println(sum(arr));
     }
 
-    public static int solution(int [] [] arr)
+    public static int sum(int [] [] arr)
     {
         int sum=0;
-    
-
-
+        int n=arr.length;
+        //Primary diagonal
+        for(int i=0; i<arr.length; i++)
+        {
+            sum+=arr[i][i];
+            if(i!=n-1-i)
+            {
+                sum+=arr[i][n-i-1];
+            }
+        }
 
         return sum;
     }
