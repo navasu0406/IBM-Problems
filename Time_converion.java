@@ -24,6 +24,6 @@ public class Time_converion {
 
         String hh=String.format("%02d",hour);
 
-        return hh+s.substring(2, )
+        return hh+s.substring(2,8 );
     }
 }
