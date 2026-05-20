@@ -1,5 +1,5 @@
 /*
-Problem: Price Check
+Problem: Price Check sdfsdf
 
 There is a shop with old-style cash registers.
 Instead of scanning products automatically, the cashier manually enters prices.
